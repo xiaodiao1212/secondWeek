@@ -1,0 +1,53 @@
+* {
+  margin : 0;
+  padding: 0;
+
+}
+ul, ul li {
+  list-style: none;
+}
+
+header {
+  font-size: 48px;
+  width: 100%;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+body>p,.content,.message {
+  margin-left: 340px;
+}
+
+body>p {
+  font-size: 30px;
+}
+
+#balance {
+  font-size: 44px;
+  color: red;
+}
+
+.content {
+  font-size: 30px;
+  margin: 100px 0 100px 340px;
+}
+button {
+  font-size: 28px;
+  background-color: #fff;
+  border: none;
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+.content input {
+  font-size: 28px;
+  width: 60%;
+}
+label {
+  display: inline-block;
+  width: 120px;
+  text-align-last: justify;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>MetaCoin - Truffle Webpack Demo w/ Frontend</title>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<script src="./app.js"></script>
+</head>
+
+<body>
+	<header>
+		这是我的第一个以太坊开发项目Dapp
+	</header>
+	<p>
+		土豪一共有<span id="balance"></span>金币
+	</p>
+	<div class="content">
+		<p>赠送金币</p>
+		<ul>
+			<li>
+				<label for="amount">数量:</label>
+				<input type="text" id="amount" placeholder="例：95" />
+			</li>
+			<li>
+				<label for="receiver">赠送给:</label>
+				<input type="text" id="receiver" placeholder="例：0x93e66d9baea28c17d9fc393b53e3fbdd76899dae"/>
+			</li>
+		</ul>
+		<button id="send" onclick="App.sendCoin()">提交</button>
+	</div>
+	<div class="message">
+		<span id="status"></span>
+	</div>
+</body>
+
+</html>
